@@ -2,12 +2,41 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title></title>
+		<title>中酒网</title>
 		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
 		<link rel="stylesheet" type="text/css" href="css/index.min.css"/>
 		<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+		<script src="js/require.js" async="true" defer data-main = "js/main"></script>
 	</head>
 	<body>
+		<!--右侧固定菜单-->
+		<div class="TheMenuRightBox">
+			<ul class="TheMenuRight">
+				<li>
+					<i  class="iconfont">&#xe67b;</i>
+					<span class="TheMenuTitle">个人中心</span>
+				</li>
+				
+				<li>
+					<i class="iconfont">&#xf0179;</i>
+					<span>购物车</span>
+					<span>0</span>
+				</li>
+				<li>
+					<i class="iconfont">&#xe757;</i>
+					<span>关注</span>
+				</li>
+				<li>
+					<i class="iconfont">&#xe62d;</i>
+					<span>财富中心</span>
+				</li>
+				<li>
+					<i class="iconfont">&#xe72f;</i>
+						<span>历史记录</span>
+				</li>
+			</ul>
+		</div>
+		
 		<!--头部导航-->
 		<div class="head-box">
 			<div class="head">
@@ -77,7 +106,7 @@
 					
 					<form action="" >
 						<div>
-							<button class="seaech_left">商品&nbsp;△</button>
+							<input type="button" class="seaech_left" value="商品&nbsp;△">
 						</div>					
 						<input class="seaech_center" type="text" value="天佑德"/>
 						<button class="seaech_right">搜索</button>
@@ -119,18 +148,150 @@
 		<div class="ShufflingFigureBox">
 			<ul class="ShufflingFigure">
 				<div class="ShufflingFigureBtn">
-					<span></span>
+					<span class="FigureBtn"></span>
 					<span></span>
 					<span></span>
 					<span></span>
 				</div>
-				<li><a href=""></a></li>
-				<li><a href=""></a></li>
-				<li><a href=""></a></li>
-				<li><a href=""></a></li>
-				<li><a href=""></a></li>
+				<li><a href=""><img src="http://img6.zhongjiu.cn/resourceb2b2c//Storage/Plat/ImageAd/201804281238366187370.jpg" alt="" /></a></li>
+				<li><a href=""><img src="http://img6.zhongjiu.cn/resourceb2b2c//Storage/Plat/ImageAd/201802091503150728240.jpg" alt="" /></a></li>
+				<li><a href=""><img src="http://img6.zhongjiu.cn/resourceb2b2c//Storage/Plat/ImageAd/201802091458155366980.jpg" alt="" /></a></li>
+				<li><a href=""><img src="http://img6.zhongjiu.cn/resourceb2b2c//Storage/Plat/ImageAd/201804281238366187370.jpg" alt="" /></a></li>
+				
 			</ul>
-			<ul class="ShufflingFigureNav"></ul>
+			<!--轮播图导航-->
+			<ul class="ShufflingFigureNav">
+				<!--左侧菜单栏-->
+				<nav class="ShufflingFigureNavLeft">
+					<li>
+						<div>
+							<span class="iconfont">&#xe60a;</span>
+							<a href="">白酒</a>
+						</div>
+						<div>
+							<a href="">茅台</a>
+							<a href="">五粮液</a>
+							<a href="">天佑德</a>
+						</div>
+						
+							<ul>
+								<li class="title1">
+									<h2>品牌</h2>
+									<div>
+										
+									</div>
+									
+								</li>
+								<li class="title2">
+									<h2>香型</h2>
+								</li>
+								<li class="title3">
+									<h2>产地</h2>
+								</li>
+							</ul>
+						
+					</li>
+					<li>
+						<div>
+							<span class="iconfont">&#xe614;</span>
+							<a href="">葡萄酒</a>
+						</div>
+						<div>
+							<a href="">拉菲</a>
+							<a href="">张裕</a>
+							<a href="">马克斯威</a>
+						</div>
+					</li>
+					<li>
+						<div>
+							<span class="iconfont">&#xe6b9;</span>
+							<a href="">洋酒</a>
+						</div>
+						<div>
+							<a href="">马爹利</a>
+							<a href="">芝华士</a>
+							<a href="">人头马</a>
+						</div>
+					</li>
+					<li>
+						<div>
+							<span class="iconfont">&#xe604;</span>
+							<a href="">黄酒</a>
+						</div>
+						<div>
+							<a href="">小黄</a>
+							<a href="">中黄</a>
+							<a href="">特别黄</a>
+						</div>
+					</li>
+					<li>
+						<div>
+							<span class="iconfont">&#xe757;</span>
+							<a href="">礼盒专区</a>
+						</div>
+						<div>
+							<a href="">五粮液五星级</a>
+						</div>
+					</li>
+					<li>
+						<div>
+							<span class="iconfont">&#xe6b3;</span>
+							<a href="">婚庆专区</a>
+						</div>
+						<div>
+							<a href="">拉菲</a>
+							<a href="">五粮液</a>
+							<a href="">xo</a>
+							<a href="">哇哈哈</a>
+						</div>
+					</li>
+				</nav>
+				<!--右侧图片-->
+				<nav class="ShufflingFigureNavRight">
+					<li>
+						<a href="">
+							<img src="http://img6.zhongjiu.cn/resourceb2b2c//Storage/Plat/ImageAd/201709121117114935610.jpg"/>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<img src="http://img6.zhongjiu.cn/resourceb2b2c//Storage/Plat/ImageAd/201708221047305409910.jpg"/>
+						</a>
+					</li>
+				</nav>
+			</ul>
+		</div>
+		<!--商品-->
+		<div class="contentBox">
+			<!--第一组-->
+			<div class="content1">
+				<!--商品1标题-->
+				<div class="content1Title">
+					<h2>热销爆款</h2>
+					<span>更多>></span>
+				</div>
+			
+				<ul>
+					
+				</ul>
+			</div>
+			<!--第二组-->
+			<div class="content2">
+				<div class="content2Title">
+					<div class="content2TitleLeft">
+						<h2>帮您选酒</h2>
+					</div>
+					<div class="content2TitleRight">
+						<span>Hot！热卖</span>
+						<span必备口粮</span>
+						<span>送礼佳品</span>
+						<span>大型宴请</span>
+						<span>更多>></span>
+					</div>
+					
+					
+				</div>
+			</div>
 		</div>
 	</body>
 </html>
